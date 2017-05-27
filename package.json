@@ -1,0 +1,19 @@
+{
+  "name": "recipebook",
+  "version": "1.0.0",
+  "description": "Recipe manager",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anthony Lu",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "*",
+    "consolidate": "*",
+    "express": "*",
+    "express-handlebars": "^3.0.0",
+    "pg": "*",
+    "sequelize": "^3.30.4"
+  }
+}
